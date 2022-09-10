@@ -1,1 +1,1 @@
-ifconfig | grep ether | cut -c 15-
+ifconfig | grep ether | cut -c 15- 

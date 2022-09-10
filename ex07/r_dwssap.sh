@@ -1,1 +1,0 @@
-cat /etc/passwd | grep -d '^(#|;|$|[ ]*#)'| sed -n '1~2!p' | sort -d -r
